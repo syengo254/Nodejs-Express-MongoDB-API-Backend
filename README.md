@@ -7,12 +7,19 @@ This is a simple app that exposes a books database collection as an API that sup
 4. DELETE /books/\<id\> to delete a single book.
 5. PUT /books/\<id\> to update a single book.
 
+Requirements to Run on Your Local Machine
+-----------------------------------------
+1. MongoDB server locallly installed.
+2. NodeJS version 14 and higher.
+3. Access to a terminal to execute commands.
+
 ## Setup Instructions
 
 1. clone the repo and cd to the project root via a terminal window e.g. powershell or bash
-2. run *npm install* to install dependencies
-3. run *node app.js* to start the server
-4. access from your browser via http://localhost:9000/books
+2. Import the books.json file to your mongodb server.
+3. run *npm install* to install dependencies
+4. run *node app.js* to start the server
+5. access from your browser via http://localhost:9000/books
 
 ### License & Copyright
 MIT
